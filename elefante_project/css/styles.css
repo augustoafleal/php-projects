@@ -1,0 +1,222 @@
+.navbar-brand img{ 
+    width: 50px;
+}
+
+#main-title {
+    text-align: center;
+    margin: 15px 0 30px;
+}
+
+/* LOGIN */
+
+#icon-login {
+    color: #FFF;
+}
+
+.login {
+    margin-top: 100px;
+}
+
+
+/* HOME */
+
+#name-mobile {
+    display: none;
+}
+
+.payed-icon{
+    color: #00ff3c;
+}
+
+.wait-icon{
+    color: #fffb00;
+}
+
+.not-icon{
+    color: #ff0000;
+}
+
+#bills-table{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#month {
+    text-align: center;
+    color: #007BFF;
+    font-weight: bolder;
+    border: 2px solid #007BFF;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#bills-table thead {
+    color: #FFF;
+    background-color: #007BFF;
+}
+
+#btn-table tr {
+    width: 0px;
+}
+
+.col-id {
+    font-weight: bold;
+    width: 150px;
+}
+
+.actions {
+    text-align: right;
+    width:  150px;
+}
+
+.actions i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.check-icon {
+    color: #1E7E34;
+}
+
+.edit-icon {
+    color: #007BFF;
+}
+
+.delete-form {
+    display: inline-block;
+}
+
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.delete-icon {
+    color: #BD2130;
+}
+
+#empty-list-text {
+    text-align: center;
+}
+
+#msg {
+    color: #155724;
+    background-color: #D4EDDA;
+    border: 1px solid #C3E6CB;
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#errormsg {
+    color: #8b3535;
+    background-color: #edd4d4;
+    border: 1px solid #e6c3c3;
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* SHOW CONTA */
+#view-contact-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.bold { 
+    font-weight: bold;
+}
+
+
+#back-link-container { 
+    width: 60px;
+    margin: 30px auto 0;
+    display: inline-block;
+
+}
+
+.back-edit {
+    margin: 30px auto 0;
+}
+
+.back-only {
+    width: 500px;
+    margin: 30px auto 0;
+}
+
+.del-only {
+    width: 480px;
+    margin: 30px auto 0;
+}
+
+#back-link {
+    border: 1px solid #007BFF;
+    color: #007BFF;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#back-link:hover { 
+    text-decoration: none;
+}
+
+
+/* CREATE E PRE-CREATE FORMS */
+#create-form,
+#edit-form,
+#createmonthly-form,
+#pre-create-form,
+#createtype-form,
+#deletetype-form { 
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-row { 
+    margin-left: 15px;
+    max-width: 500px;
+    display: flex;
+}
+
+#btn-submit { 
+   margin-top: 30px;
+}
+
+#btn-del { 
+   margin-bottom: 30px;
+}
+
+/* FOOTER 
+#footer {
+    height: 50px;
+    margin: 50 auto;
+
+}*/
+
+/* MEDIA flow-root */
+@media(max-width: 500px){
+    .form-row {
+        display: block;
+    }
+    #edit_home,
+    .delete-btn {
+        display: none;
+    }
+    #name-mobile {
+        display:  table-cell;
+        
+        
+    }
+    #name-normal {
+        display: none;
+    }
+}
